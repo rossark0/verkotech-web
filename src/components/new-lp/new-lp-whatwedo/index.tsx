@@ -5,7 +5,7 @@ import { useRouter } from '../../../../navigation'
 import { cn } from '@/lib/utils'
 
 export default function NewLpWhatWeDo({
-  maxWidth = 'max-w-5xl',
+  maxWidth = 'max-w-7xl',
 }: {
   maxWidth?: string
 }) {
@@ -44,15 +44,15 @@ export default function NewLpWhatWeDo({
   }
 
   return (
-    <section className="w-full bg-white px-4 py-16">
+    <section className="w-full bg-white px-4 py-16 pt-10">
       <div className={cn('mx-auto', maxWidth)}>
         {/* Title */}
-        <h2 className="mb-8 text-center font-impact text-4xl font-bold tracking-tight text-black md:text-6xl">
+        <h2 className="mb-4 text-center font-impact text-4xl font-bold tracking-tight text-black md:text-6xl">
           {t('title')}
         </h2>
 
         {/* Subtitle */}
-        <p className="mx-auto mb-12 max-w-3xl  text-center font-glacial text-lg leading-relaxed text-zinc-500 lg:text-2xl">
+        <p className="mx-auto mb-12 max-w-4xl  text-center text-lg text-zinc-500 lg:text-xl">
           {t('description')}
         </p>
 
@@ -62,13 +62,13 @@ export default function NewLpWhatWeDo({
             <div
               key={index}
               onClick={() => handleServiceClick(service.key)}
-              className="flex min-h-[272px] cursor-pointer  items-center border-l-4 border-cyan-400 bg-zinc-100 p-6 transition-all duration-200 hover:bg-zinc-200 hover:shadow-md"
+              className="flex min-h-[200px] cursor-pointer  items-center border-l-4 border-cyan-400 bg-sky-50 p-6 transition-all duration-200 hover:bg-sky-100 hover:shadow-md"
             >
               <div className="flex w-full flex-col justify-between gap-4 lg:flex-row lg:items-center">
                 <h3 className="max-w-[300px] text-xl font-semibold text-black lg:max-w-[400px] lg:text-3xl">
                   {service.title}
                 </h3>
-                <p className="max-w-[472px] leading-relaxed text-zinc-500 lg:self-end lg:text-xl">
+                <p className="max-w-[600px] leading-relaxed text-zinc-500 lg:self-end lg:text-xl">
                   {service.description}
                 </p>
               </div>

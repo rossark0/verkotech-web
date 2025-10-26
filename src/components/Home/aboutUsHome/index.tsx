@@ -32,7 +32,7 @@ export default function AboutUsHome() {
               <div className="flex flex-col items-start">
                 {/* Start Step Header */}
                 <div className="mb-6 mt-[-32px] inline-block bg-verkotech-lightBlue p-4">
-                  <h2 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tighter text-white md:max-w-5xl md:text-6xl">
+                  <h2 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tighter text-white md:max-w-7xl md:text-6xl">
                     {t('aboutUs')}
                   </h2>
                 </div>

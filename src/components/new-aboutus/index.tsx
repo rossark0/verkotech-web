@@ -3,9 +3,8 @@
 import { Button } from '@/components/ui/button'
 import { Forward } from 'lucide-react'
 import { useTranslations } from 'next-intl'
-import { useRouter } from '../../../navigation'
-import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar'
 import Image from 'next/image'
+import { useRouter } from '../../../navigation'
 
 export default function NewAboutUs() {
   const t = useTranslations('AboutUsPage')
@@ -19,7 +18,7 @@ export default function NewAboutUs() {
 
   return (
     <section className="w-full bg-white px-4 py-16">
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-7xl">
         {/* Title */}
         <h1 className="mb-12 text-left font-impact text-4xl font-bold tracking-tight text-black md:text-5xl">
           {t('title')}
@@ -38,7 +37,7 @@ export default function NewAboutUs() {
 
       {/* Leadership Section */}
       <div className="w-full bg-white pb-8 pt-10 lg:px-4">
-        <div className="mx-auto flex w-full max-w-4xl flex-col items-start gap-10 md:flex-row md:items-start">
+        <div className="mx-auto flex w-full max-w-7xl flex-col items-start gap-10 md:flex-row md:items-start">
           <div className="lg:pb-8 relative mb-8 h-[220px] w-[220px] overflow-hidden rounded-full">
             {/* <Avatar className="h-[220px] w-[220px] overflow-hidden rounded-full md:mx-0 md:h-[260px] md:w-[260px]">
               <AvatarImage
@@ -63,34 +62,36 @@ export default function NewAboutUs() {
             </h2>
             <div className="space-y-6 text-lg leading-relaxed text-[#1b2a3a]">
               <p>{t3('p1')}</p>
-            </div>
-          </div>
-        </div>
-        <div className="mx-auto flex max-w-5xl flex-col gap-4 lg:px-16">
-          <p className="text-lg leading-relaxed text-[#1b2a3a]">{t3('p2')}</p>
-          <p className="text-lg leading-relaxed text-[#1b2a3a]">{t3('p3')}</p>
-        </div>
-      </div>
-
-      {/* Call to Action Section */}
-      <div className="mx-auto mb-12 mt-16 max-w-4xl space-y-6">
-        <h2 className="text-2xl font-bold text-black md:text-3xl lg:text-center">
+                <p className="text-lg leading-relaxed text-[#1b2a3a]">{t3('p2')}</p>
+                <p className="text-lg leading-relaxed text-[#1b2a3a]">{t3('p3')}</p>
+                  {/* Call to Action Section */}
+      <div className="mx-auto mb-12 mt-16 max-w-7xl space-y-6">
+        <h2 className="text-2xl font-bold text-black md:text-3xl lg:text-left">
           {t('readyTitle')}
         </h2>
-        <p className="text-xl font-bold text-black lg:text-center">
+        <p className="text-xl font-bold text-black lg:text-left">
           {t('readyDescription')}
         </p>
       </div>
       {/* Call to Action Button */}
-      <div className="flex justify-center">
+      <div className="flex justify-start w-full max-w-7xl mx-auto">
         <Button
           onClick={handleGetInTouch}
-          className="flex h-12 w-[216px] items-center gap-2 rounded-[6px] bg-pink-200 text-lg font-semibold text-pink-500 transition-colors hover:bg-pink-300"
+          className="flex h-12 w-[216px] items-center gap-2 rounded-[6px] bg-pink-500 text-lg font-semibold text-white transition-colors hover:bg-pink-300"
         >
           {t2('getInTouch')}
           <Forward size={20} />
         </Button>
       </div>
+            </div>
+          </div>
+        </div>
+        <div className="mx-auto flex max-w-7xl flex-col gap-4">
+          
+        </div>
+      </div>
+
+    
     </section>
   )
 }

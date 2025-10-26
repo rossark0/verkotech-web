@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="w-full px-4">
       <div className="mx-auto flex w-full max-w-[1200px] flex-col pt-8">
         <div className="mb-6 flex w-auto self-center bg-verkotech-pink p-4 ">
-          <h2 className="text- max-w-4xl text-3xl font-semibold  leading-tight tracking-tighter text-white md:max-w-5xl md:text-6xl">
+          <h2 className="text- max-w-4xl text-3xl font-semibold  leading-tight tracking-tighter text-white md:max-w-7xl md:text-6xl">
             {t('title')}
           </h2>
         </div>

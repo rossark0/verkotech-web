@@ -3,6 +3,7 @@ import NewLpHero from '@/components/new-lp/new-lp-hero'
 import NewLpLetsBuild from '@/components/new-lp/new-lp-letsbuild'
 import NewLpWhatWeDo from '@/components/new-lp/new-lp-whatwedo'
 import NewLpWhyChooseUs from '@/components/new-lp/new-lp-whychoseus'
+import { NewLpPartners } from '@/components/new-lp-partners'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <InnovateTogether /> */}
         <NewLpHero />
         <NewLpWhatWeDo />
+        <NewLpPartners />
         <NewLpAboutUs />
         <NewLpWhyChooseUs />
         <NewLpLetsBuild />

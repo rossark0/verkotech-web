@@ -21,21 +21,21 @@ export default function NewLpWhyChooseUs() {
 
   return (
     <section className="w-full bg-[#172D5C] pt-24 text-white">
-      <div className="mx-auto mb-20 max-w-5xl px-6 xl:px-0">
+      <div className="mx-auto mb-20 max-w-7xl px-6 xl:px-0">
         {/* Title */}
-        <h2 className="mb-8 font-impact text-4xl font-bold md:text-5xl lg:text-6xl">
+        <h2 className="mb-4 font-impact text-4xl font-bold md:text-5xl lg:text-6xl">
           {t('title')}
         </h2>
 
         {/* Description */}
-        <p className="mb-12 max-w-5xl text-lg leading-relaxed text-gray-300 md:text-xl">
+        <p className="mb-10  max-w-6xl text-base text-gray-300 md:text-xl">
           {t('description')}
         </p>
 
         {/* Two Column Layout */}
         <div className="flex flex-col gap-24 md:flex-row">
           {/* Advantage Column */}
-          <div className="h-[472px] flex-1 border-l-4 border-pink-500 bg-[#F3F3F4]/10 p-8">
+          <div className="h-[372px] flex-1 border-l-4 border-pink-500 bg-[#F3F3F4]/10 p-8">
             <h3 className="mb-6 text-2xl font-bold text-pink-500">
               {t('advantageTitle')}
             </h3>
@@ -50,7 +50,7 @@ export default function NewLpWhyChooseUs() {
           </div>
 
           {/* Benefits Column */}
-          <div className="h-[472px] flex-1 border-l-4 border-pink-500 bg-[#F3F3F4]/10 p-8">
+          <div className="h-[372px] flex-1 border-l-4 border-pink-500 bg-[#F3F3F4]/10 p-8">
             <h3 className="mb-6 text-2xl font-bold text-pink-500">
               {t('benefitsTitle')}
             </h3>
@@ -72,11 +72,11 @@ export default function NewLpWhyChooseUs() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
-        className="relative flex h-[372px] items-center justify-center overflow-hidden rounded-lg bg-[#172D5C]"
+        className="relative flex h-[200px] lg:h-[372px] items-center justify-center overflow-hidden rounded-lg bg-[#172D5C]"
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative px-8 py-16 text-center">
-          <h3 className="mx-auto max-w-4xl font-impact text-2xl font-bold leading-10 tracking-normal text-white md:text-4xl lg:text-5xl">
+          <h3 className="mx-auto text-balance max-w-4xl font-impact text-2xl font-bold leading-7 tracking-normal text-white md:text-4xl lg:text-4xl">
             {t('commitmentBanner1')}
             <br />
             {t('commitmentBanner2')}

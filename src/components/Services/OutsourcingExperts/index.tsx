@@ -10,7 +10,7 @@ export default function OutsourcingExperts() {
       <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-4 xl:flex-row">
         <div className="flex flex-col items-start">
           <div className="mb-4 flex w-auto self-start bg-verkotech-lightBlue p-4">
-            <h2 className="max-w-4xl text-3xl font-semibold leading-tight tracking-tighter text-white md:max-w-5xl xl:text-6xl">
+            <h2 className="max-w-4xl text-3xl font-semibold leading-tight tracking-tighter text-white md:max-w-7xl xl:text-6xl">
               {t('outsourcingExperts')}
             </h2>
           </div>

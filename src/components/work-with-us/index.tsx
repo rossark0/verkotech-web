@@ -153,11 +153,11 @@ export default function WorkWithUs() {
             priority
           />
         </div>
-        <div className="relative z-10 mx-auto max-w-5xl px-4 text-center">
+        <div className="relative z-10 mx-auto max-w-7xl px-4 text-center">
           <h1 className="mb-3 font-impact text-4xl font-bold uppercase tracking-wide text-pink-400 drop-shadow md:text-6xl">
             {tw('heroTitle')}
           </h1>
-          <p className="mx-auto max-w-3xl text-xl font-semibold uppercase tracking-[0.15em] text-white md:text-2xl">
+          <p className="mx-auto max-w-3xl text-balance text-xl font-semibold uppercase tracking-[0.15em] text-white md:text-2xl">
             {tw('heroSubtitle')}
           </p>
         </div>

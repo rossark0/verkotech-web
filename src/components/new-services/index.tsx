@@ -211,7 +211,7 @@ export default function NewServices() {
             />
           </div>
 
-          <div className="relative z-10 mx-auto max-w-6xl px-4 text-center text-white">
+          <div className="relative z-10 mx-auto max-w-7xl px-4 text-center text-white">
             <div className="mb-8 flex items-center justify-center gap-4"></div>
 
             <h2 className="mb-0 text-3xl font-bold uppercase leading-tight md:text-4xl lg:text-5xl">
@@ -225,13 +225,13 @@ export default function NewServices() {
 
       {!searchParams.get('service') && (
         <div className="pt-24">
-          <NewLpWhatWeDo maxWidth="max-w-6xl" />
+          <NewLpWhatWeDo maxWidth="max-w-7xl" />
         </div>
       )}
 
       {/* Service Info */}
       <section className="w-full bg-white px-4 py-16">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-7xl">
           {/* Main Title & Description */}
           {searchParams.get('service') && (
             <div className="mb-16">
