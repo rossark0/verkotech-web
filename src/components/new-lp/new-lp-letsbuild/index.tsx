@@ -18,7 +18,7 @@ export default function NewLpLetsBuild() {
       <div className="mx-auto max-w-7xl">
         <div className="rounded-2xl bg-[#172D5C] px-8 py-16 text-center text-white md:px-16">
           {/* Main Heading */}
-          <h2 className="mb-4 font-glacial font-semibold text-4xl md:text-5xl lg:text-6xl">
+          <h2 className="mb-4 font-glacial text-balance font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-6xl">
             {t('mainHeading1')}
             <br />
             {t('mainHeading2')}

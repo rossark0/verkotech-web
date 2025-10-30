@@ -79,13 +79,13 @@ const NewLpPartners = ({
   ],
 }: NewLpPartnersProps) => {
   return (
-    <section className="py-20 overflow-hidden">
+    <section className="overflow-hidden">
       <div className="container flex flex-col items-center text-center">
-        <h2 className="my-6 text-pretty text-black text-2xl font-bold lg:text-4xl">
+        <h2 className="mb-6 text-pretty text-black text-2xl font-bold lg:text-4xl">
           {heading}
         </h2>
       </div>
-      <div className="pt-10 md:pt-16 lg:pt-20">
+      <div className="pt-4 md:pt-16 lg:pt-20">
         <div className="relative mx-auto flex items-center justify-center lg:max-w-5xl">
           <Carousel
             opts={{ loop: true }}

@@ -23,9 +23,8 @@ export default function NewLpAboutUs() {
           </h2>
 
           {/* Main Heading */}
-          <h3 className="mb-4 font-glacial text-2xl font-light md:text-4xl lg:mb-10 lg:text-5xl">
-            {t('mainHeading1')}
-            <br />
+          <h3 className="mb-4 text-balance text-center mx-auto font-glacial text-2xl font-light md:text-4xl lg:mb-10 lg:text-5xl">
+            {t('mainHeading1')}{' '}
             {t('mainHeading2')}
           </h3>
 

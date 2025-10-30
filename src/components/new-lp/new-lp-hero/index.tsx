@@ -25,7 +25,7 @@ export default function NewLpHero() {
       <div className="relative z-10 mx-auto max-w-6xl overflow-hidden px-4 text-center text-white">
         {/* Brand Title with Brain Icon */}
         <div className="flex w-full items-center justify-center gap-2 lg:gap-4">
-          <h3 className="font-canter text-5xl md:!text-7xl font-bold md:text-8xl">
+          <h3 className="font-canter text-4xl md:!text-7xl font-bold">
             {t('weAre')}
           </h3>
           <div className="relative h-12 w-12 -translate-y-1 lg:h-32 lg:w-32">
@@ -36,7 +36,7 @@ export default function NewLpHero() {
               className="text-cyan-400"
             />
           </div>
-          <h3 className="-translate-y-1.5 font-glacial text-5xl md:!text-7xl font-bold lg:-translate-y-3">
+          <h3 className="-translate-y-1.5 font-glacial text-4xl md:!text-7xl font-bold lg:-translate-y-3">
             {t('verkotech')}
           </h3>
         </div>

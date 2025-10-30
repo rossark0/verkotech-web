@@ -44,7 +44,7 @@ export default function NewLpWhatWeDo({
   }
 
   return (
-    <section className="w-full bg-white px-4 py-16 pt-10">
+    <section className="w-full bg-white px-4 pb-12 py-16 pt-10">
       <div className={cn('mx-auto', maxWidth)}>
         {/* Title */}
         <h2 className="mb-4 text-center font-impact text-4xl font-bold tracking-tight text-black md:text-6xl">
@@ -52,7 +52,7 @@ export default function NewLpWhatWeDo({
         </h2>
 
         {/* Subtitle */}
-        <p className="mx-auto mb-12 max-w-4xl  text-center text-lg text-zinc-500 lg:text-xl">
+        <p className="mx-auto mb-12 max-w-4xl text-balance text-center text-lg text-zinc-500 lg:text-xl">
           {t('description')}
         </p>
 
@@ -68,7 +68,7 @@ export default function NewLpWhatWeDo({
                 <h3 className="max-w-[300px] text-xl font-semibold text-black lg:max-w-[400px] lg:text-3xl">
                   {service.title}
                 </h3>
-                <p className="max-w-[600px] leading-relaxed text-zinc-500 lg:self-end lg:text-xl">
+                <p className="max-w-[600px] text-balance leading-relaxed text-zinc-500 lg:self-end lg:text-xl">
                   {service.description}
                 </p>
               </div>
