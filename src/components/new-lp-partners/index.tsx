@@ -11,6 +11,8 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 interface Logo {
   id: string;
@@ -78,14 +80,25 @@ const NewLpPartners = ({
     },
   ],
 }: NewLpPartnersProps) => {
+
+  const t = useTranslations('partners')
+
   return (
-    <section className="overflow-hidden">
-      <div className="container flex flex-col items-center text-center">
-        <h2 className="mb-6 text-pretty text-black text-2xl font-bold lg:text-4xl">
-          {heading}
+    <section className="overflow-hidden flex items-center justify-center max-w-7xl mx-auto">
+      <div className="flex flex-col">
+        <h2 className="mb-6 border-l-4 border-cyan-500 pl-4 text-pretty text-black text-2xl font-bold lg:text-4xl">
+          {t('title')}
         </h2>
+        <p className="text-balance text-base text-zinc-500 lg:text-xl">
+          {t('description')}
+        </p>
       </div>
-      <div className="pt-4 md:pt-16 lg:pt-20">
+      <div className="flex items-center justify-center">
+        <div className="relative w-[400px] h-[400px]">
+        <Image src="/thomson.PNG" alt="Partners" fill className="object-contain" />
+        </div>
+      </div>
+      {/* <div>
         <div className="relative mx-auto flex items-center justify-center lg:max-w-5xl">
           <Carousel
             opts={{ loop: true }}
@@ -113,7 +126,7 @@ const NewLpPartners = ({
           <div className="bg-linear-to-r from-background absolute inset-y-0 left-0 w-12 to-transparent"></div>
           <div className="bg-linear-to-l from-background absolute inset-y-0 right-0 w-12 to-transparent"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

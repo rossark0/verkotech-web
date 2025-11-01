@@ -203,7 +203,17 @@ export default function NewServices() {
         <section className="relative flex h-[80vh] w-full items-center justify-center">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/herobg.jpg"
+              src={
+                searchParams.get('service') === 'sap-transformation'
+                  ? '/sap.jpg'
+                  : searchParams.get('service') === 'global-trade'
+                    ? '/onesource.jpg'
+                    : searchParams.get('service') === 'tax-compliance'
+                      ? '/brtax.jpg'
+                      : searchParams.get('service') === 'nearshore-support'
+                        ? '/near.jpg'
+                        : '/herobg.jpg'
+              }
               alt="Hero Background"
               fill
               className="object-cover"

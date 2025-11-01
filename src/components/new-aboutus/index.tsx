@@ -25,7 +25,7 @@ export default function NewAboutUs() {
         </h1>
 
         {/* Content */}
-        <div className="space-y-6 text-lg leading-relaxed text-gray-700">
+        <div className="space-y-6 text-lg text-justify leading-relaxed text-gray-700">
           <p>{t('paragraph1')}</p>
           <p>{t('paragraph2')}</p>
           <p>{t('paragraph3')}</p>
@@ -60,7 +60,7 @@ export default function NewAboutUs() {
             <h2 className="mb-6 font-impact text-3xl font-bold tracking-wide text-[#1b2a3a] md:text-4xl">
               {t3('title')}
             </h2>
-            <div className="space-y-6 text-lg leading-relaxed text-[#1b2a3a]">
+            <div className="space-y-6 text-lg text-justify leading-relaxed text-[#1b2a3a]">
               <p>{t3('p1')}</p>
                 <p className="text-lg leading-relaxed text-[#1b2a3a]">{t3('p2')}</p>
                 <p className="text-lg leading-relaxed text-[#1b2a3a]">{t3('p3')}</p>
