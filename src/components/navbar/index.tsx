@@ -72,7 +72,7 @@ export default function Navbar({ lang }: ILanguages) {
           </div>
 
           <div className="hidden w-1/3 justify-center md:flex">
-            <ul className="flex space-x-3 font-medium">
+            <ul className="flex space-x-3 truncate font-medium">
               {linksMapped?.map((link, index) => (
                 <>
                   <Link href={link?.url} key={index}>

@@ -52,7 +52,7 @@ export default function NewLpWhatWeDo({
         </h2>
 
         {/* Subtitle */}
-        <p className="mx-auto mb-12 text-justify lg:text-center text-balance text-base text-zinc-500 lg:text-xl">
+        <p style={{textWrap: "balance", hyphens: "auto"}} className="mx-auto mb-12 max-md:text-justify text-center text-balance text-base text-zinc-500 lg:text-xl">
           {t('description')}
         </p>
 
