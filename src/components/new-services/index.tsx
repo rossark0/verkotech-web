@@ -202,23 +202,30 @@ export default function NewServices() {
       {searchParams.get('service') && (
         <section className="relative flex h-[80vh] w-full items-center justify-center">
           <div className="absolute inset-0 z-0">
-            <Image
-              src={
-                searchParams.get('service') === 'sap-transformation'
-                  ? '/sap.jpg'
-                  : searchParams.get('service') === 'global-trade'
-                    ? '/onesource.jpg'
-                    : searchParams.get('service') === 'tax-compliance'
-                      ? '/brtax.jpg'
-                      : searchParams.get('service') === 'nearshore-support'
-                        ? '/near.jpg'
-                        : '/herobg.jpg'
+            {(() => {
+              const service = searchParams.get('service')
+              let imageSrc = '/herobg.jpg'
+              
+              if (service === 'sap-transformation') {
+                imageSrc = '/sap.jpg'
+              } else if (service === 'global-trade') {
+                imageSrc = '/onesource.jpg'
+              } else if (service === 'tax-compliance') {
+                imageSrc = '/brtax.jpg'
+              } else if (service === 'nearshore-support') {
+                imageSrc = '/near.jpg'
               }
-              alt="Hero Background"
-              fill
-              className="object-cover"
-              priority
-            />
+              
+              return (
+                <Image
+                  src={imageSrc}
+                  alt="Hero Background"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              )
+            })()}
           </div>
 
           <div className="relative z-10 mx-auto max-w-7xl px-4 text-center text-white">
