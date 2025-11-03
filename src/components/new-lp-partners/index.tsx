@@ -90,7 +90,7 @@ const NewLpPartners = ({
           {t('title')}
         </h2>
         <div className="relative mb-3 mx-auto lg:hidden block w-[300px] h-[100px]">
-           <Image src="/thomson-removebg-preview.PNG" alt="Partners" fill className="object-cover" />
+           <Image src="/assets/thhhh.png" alt="Partners" fill className="object-cover" />
         </div>
         <p className="text-balance text-center lg:text-left text-base text-zinc-500 lg:text-xl">
           {t('description')}
