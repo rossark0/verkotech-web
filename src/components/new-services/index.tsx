@@ -204,16 +204,15 @@ export default function NewServices() {
           <div className="absolute inset-0 z-0">
             {(() => {
               const service = searchParams.get('service')
-              let imageSrc = '/herobg.jpg'
-              
+              let imageSrc = '/assets/1herobg.jpg'
               if (service === 'sap-transformation') {
-                imageSrc = '/sap.jpg'
+                imageSrc = '/assets/1sap.jpg'
               } else if (service === 'global-trade') {
-                imageSrc = '/onesource.jpg'
+                imageSrc = '/assets/1onesource.jpg'
               } else if (service === 'tax-compliance') {
-                imageSrc = '/brtax.jpg'
+                imageSrc = '/assets/1brtax.jpg'
               } else if (service === 'nearshore-support') {
-                imageSrc = '/near.jpg'
+                imageSrc = '/assets/1near.jpg'
               }
               
               return (
