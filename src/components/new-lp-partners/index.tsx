@@ -98,7 +98,7 @@ const NewLpPartners = ({
       </div>
       <div className="flex items-center justify-center">
         <div className="relative hidden lg:block lg:w-[400px] lg:h-[400px] w-[132px] h-[132px]">
-           <Image src="/thomson-removebg-preview.PNG" alt="Partners" fill className="object-contain" />
+           <Image src="/assets/thhhh.png" alt="Partners" fill className="object-contain" />
         </div>
       </div>
       {/* <div>
