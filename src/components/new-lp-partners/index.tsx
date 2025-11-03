@@ -84,9 +84,9 @@ const NewLpPartners = ({
   const t = useTranslations('partners')
 
   return (
-    <section className="overflow-hidden flex items-center justify-center max-w-7xl mx-auto">
+    <section className="overflow-hidden lg:flex-row flex-col-reverse px-4 flex items-center justify-center max-w-7xl mx-auto">
       <div className="flex flex-col">
-        <h2 className="mb-6 border-l-4 border-cyan-500 pl-4 text-pretty text-black text-2xl font-bold lg:text-4xl">
+        <h2 className="mb-6 border-l-4 border-cyan-400 pl-4 text-pretty text-black text-2xl font-bold lg:text-4xl">
           {t('title')}
         </h2>
         <p className="text-balance text-base text-zinc-500 lg:text-xl">
@@ -94,7 +94,7 @@ const NewLpPartners = ({
         </p>
       </div>
       <div className="flex items-center justify-center">
-        <div className="relative w-[400px] h-[400px]">
+        <div className="relative lg:w-[400px] lg:h-[400px] w-[132px] h-[132px]">
         <Image src="/thomson.PNG" alt="Partners" fill className="object-contain" />
         </div>
       </div>

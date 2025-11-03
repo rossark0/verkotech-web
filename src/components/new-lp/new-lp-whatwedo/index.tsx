@@ -44,7 +44,7 @@ export default function NewLpWhatWeDo({
   }
 
   return (
-    <section className="w-full bg-white px-4 pb-12 py-16 pt-10">
+    <section className="w-full bg-white px-4 pb-6 py-16 pt-10">
       <div className={cn('mx-auto', maxWidth)}>
         {/* Title */}
         <h2 className="mb-4 text-center font-impact text-4xl font-bold tracking-tight text-black md:text-6xl">

@@ -57,7 +57,7 @@ export default function NewAboutUs() {
           </div>
 
           <div className="flex-1">
-            <h2 className="mb-6 font-impact text-3xl font-bold tracking-wide text-[#1b2a3a] md:text-4xl">
+            <h2 className="mb-6 font-impact text-balance text-3xl font-bold tracking-wide text-[#1b2a3a] md:text-4xl">
               {t3('title')}
             </h2>
             <div className="space-y-6 text-lg text-justify leading-relaxed text-[#1b2a3a]">
