@@ -86,7 +86,7 @@ const NewLpPartners = ({
   return (
     <section className="overflow-hidden mt-3 lg:mt-0 lg:flex-row flex-col-reverse px-4 flex items-center justify-center max-w-7xl mx-auto">
       <div className="flex flex-col">
-        <h2 className="lg:mb-6 mb-3 text-center text-balance text-black text-3xl font-bold lg:text-4xl">
+        <h2 className="lg:mb-6 mb-3 text-center lg:text-left text-balance text-black text-3xl font-bold lg:text-4xl">
           {t('title')}
         </h2>
         <div className="relative mb-3 mx-auto lg:hidden block w-[300px] h-[100px]">
