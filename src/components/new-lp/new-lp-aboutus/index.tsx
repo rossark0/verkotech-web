@@ -14,7 +14,7 @@ export default function NewLpAboutUs() {
   }
 
   return (
-    <section className="w-full px-4 py-16 pt-10">
+    <section className="w-full px-4 pb-8 xl:pb-16">
       <div className="mx-auto max-w-7xl">
         <div className="rounded-2xl bg-[#172D5C] px-8 py-16 text-center text-white md:px-16">
           {/* Title */}

@@ -200,7 +200,7 @@ export default function NewServices() {
     <>
       {/* Hero */}
       {searchParams.get('service') && (
-        <section className="relative flex lg:h-[80vh] h-[40vh] w-full items-center justify-center">
+        <section className="relative flex xl:h-[80vh] h-[40vh] w-full items-center justify-center">
           <div className="absolute inset-0 z-0">
             {(() => {
               const service = searchParams.get('service')

@@ -44,7 +44,7 @@ export default function NewLpWhatWeDo({
   }
 
   return (
-    <section className="w-full bg-white px-4 pb-6 py-16 pt-10">
+    <section className="w-full bg-white px-4 pb-6 py-16 pt-10 lg:pb-0">
       <div className={cn('mx-auto', maxWidth)}>
         {/* Title */}
         <h2 className="mb-4 text-center font-impact text-4xl font-bold tracking-tight text-black md:text-6xl">
@@ -65,7 +65,7 @@ export default function NewLpWhatWeDo({
               className="flex min-h-[200px] cursor-pointer  items-center border-l-4 border-cyan-400 bg-sky-50 p-6 transition-all duration-200 hover:bg-sky-100 hover:shadow-md"
             >
               <div className="flex w-full flex-col justify-between gap-4 lg:flex-row lg:items-center">
-                <h3 className="max-w-[300px] text-xl font-semibold text-black lg:max-w-[400px] lg:text-3xl">
+                <h3 className={cn("max-w-[300px] text-xl font-semibold text-black lg:max-w-[400px] lg:text-3xl", service.key === "sap-transformation" && "!max-w-[300px]")}>
                   {service.title}
                 </h3>
                 <p className="max-w-[600px] text-balance leading-relaxed text-zinc-500 lg:self-end lg:text-xl">
