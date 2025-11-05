@@ -84,8 +84,8 @@ export default function NewLpWhyChooseUs() {
             {t('commitmentBanner3')}
           </h3>
           <h3 className="mx-auto lg:hidden text-balance block max-w-4xl font-impact text-2xl font-bold leading-7 tracking-normal text-white md:text-4xl lg:text-4xl">
-            {t('commitmentBanner1')}
-            {t('commitmentBanner2')}
+            {t('commitmentBanner1')}{' '}
+            {t('commitmentBanner2')}{' '}
             {t('commitmentBanner3')}
           </h3>
         </div>
