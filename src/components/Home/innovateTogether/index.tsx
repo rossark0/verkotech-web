@@ -12,7 +12,7 @@ export default function InnovateTogether() {
       <section className="w-full px-4 lg:px-0">
         <div className="mx-auto w-full max-w-[1280px] pt-12 lg:pt-24">
           <div className="flex w-full flex-col justify-between gap-4 md:flex-row md:items-center">
-            <h2 className="text-4xl font-semibold leading-tight tracking-tighter text-verkotech-primary md:w-1/2 md:max-w-5xl md:text-5xl">
+            <h2 className="text-4xl font-semibold leading-tight tracking-tighter text-verkotech-primary md:w-1/2 md:max-w-7xl md:text-5xl">
               {t('innovateTogether')}
             </h2>
             <p className="text-sm text-slate-400 md:w-1/2 md:text-base">

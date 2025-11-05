@@ -47,6 +47,10 @@
     "getInTouchDetails": "Are you ready to unlock the full potential of your business expansion into Latin America? Look no further! VERKOTECH is your gateway to seamless integration and unparalleled success in this dynamic market.",
     "contact": "Contact"
   },
+  "partners": {
+    "title": "Strategic partnership that delivers results.",
+    "description": "Verkotech proudly partners with Thomson Reuters to integrate advanced technology, precision, and innovation into secure, compliant, and efficient tax and trade solutions."
+  },
   "AboutUs": {
     "title": "Verkotech",
     "your": "Your",
@@ -99,7 +103,7 @@
     },
     "whatWeDo": {
       "title": "WHAT WE DO?",
-      "description": "Our services are designed to help global organizations align their SAP architecture with local requirements - bridging regulatory, operational, and cultural gaps across the Americas.",
+      "description": "At Verkotech, we deliver transformation, tax compliance, and technical support for global companies operating across the United States, Canada, Brazil, and Latin America. More than implementing solutions, we work side by side with our clients and partners, ensuring every project reflects technical precision, local understanding, and continuous collaboration. Our services help international organizations align their SAP architecture with local requirements, bridging regulatory, operational, and cultural gaps across the Americas.",
       "serviceTitle": "SAP Transformations (ECC - S/4HANDA & ROLLOUTS)",
       "serviceDescription": "Our services are designed to help global organizations align their SAP architecture with local requirements - bridging regulatory, operational, and cultural gaps across the Americas."
     },
@@ -110,7 +114,7 @@
       "description1": "Verkotech is a specialized SAP consulting firm dedicated to helping North American companies thrive with SAP across the Americas.",
       "description2": "From strategy to execution, we bring structure, precision and deep industry knowledge, especially for highly regulated environments.",
       "getInTouch": "Get in touch",
-      "description3": "Learn more about us and how we work and how we can support your next project."
+      "description3": "Learn more about us and how we work."
     },
     "whyChooseUs": {
       "title": "WHY CHOOSE US?",
@@ -131,7 +135,7 @@
       },
       "commitmentBanner1": "BECAUSE INNOVATION RELIABILITY AND",
       "commitmentBanner2": "DEDICATION AREN'T JUST WORDS.",
-      "commitmentBanner3": "THEY'RE OUR COMMITMENT TO YOU"
+      "commitmentBanner3": "THEY'RE OUR COMMITMENT TO YOU."
     },
     "letsBuild": {
       "mainHeading1": "Let's build smarter",

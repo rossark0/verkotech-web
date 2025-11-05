@@ -47,6 +47,10 @@
     "success": "Candidatura enviada com sucesso! Entraremos em contato em breve.",
     "error": "Falha ao enviar a candidatura. Tente novamente."
   },
+  "partners": {
+    "title": "Parceria estratégica que gera resultados.",
+    "description": "A Verkotech tem orgulho em ser parceira da Thomson Reuters, integrando tecnologia avançada, precisão e inovação em soluções fiscais e de comércio exterior seguras, em conformidade e eficientes."
+  },
   "AboutUs": {
     "title": "Verkotech",
     "your": "Seu",
@@ -90,7 +94,7 @@
   },
   "NewLP": {
     "hero": {
-      "weAre": "SOMOS",
+      "weAre": "WE'RE",
       "verkotech": "VERKOTECH",
       "mainTitle1": "UMA CONSULTORIA ESPECIALIZADA EM SAP",
       "mainTitle2": "E SOLUÇÕES THOMSON REUTERS",
@@ -98,7 +102,7 @@
     },
     "whatWeDo": {
       "title": "O QUE FAZEMOS?",
-      "description": "Nossos serviços são projetados para ajudar organizações globais a alinhar sua arquitetura SAP com requisitos locais - preenchendo lacunas regulamentares, operacionais e culturais nas Américas.",
+      "description": "Na Verkotech, oferecemos transformação, conformidade fiscal e suporte técnico para empresas globais que operam nos Estados Unidos, Canadá, Brasil e América Latina. Mais do que implementar soluções, trabalhamos lado a lado com nossos clientes e parceiros, garantindo que cada projeto reflita precisão técnica, entendimento local e colaboração contínua. Nossos serviços ajudam organizações internacionais a alinhar sua arquitetura SAP com requisitos locais, superando lacunas regulatórias, operacionais e culturais em toda a região das Américas.",
       "serviceTitle": "Transformações SAP (ECC - S/4HANDA & ROLLOUTS)",
       "serviceDescription": "Nossos serviços são projetados para ajudar organizações globais a alinhar sua arquitetura SAP com requisitos locais - preenchendo lacunas regulamentares, operacionais e culturais nas Américas."
     },
@@ -109,7 +113,7 @@
       "description1": "A Verkotech é uma empresa de consultoria SAP especializada, dedicada a ajudar empresas norte-americanas a prosperar com SAP nas Américas.",
       "description2": "Da estratégia à execução, trazemos estrutura, precisão e conhecimento profundo da indústria - especialmente para ambientes altamente regulamentados.",
       "getInTouch": "Entre em contato",
-      "description3": "Saiba mais sobre nós e como trabalhamos e como podemos apoiar seu próximo projeto."
+      "description3": "Saiba mais sobre nós."
     },
     "whyChooseUs": {
       "title": "POR QUE NOS ESCOLHER?",
